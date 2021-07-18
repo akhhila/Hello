@@ -12,6 +12,7 @@ public class AppTest {
         App classUnderTest = new App();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
 	assertNoTNull("app should hava a message", classUnderTest.getMessage());
+	assertNOtNull("app should have a thankyou",classUnderTest.getThankyou());
     
     }
 }
